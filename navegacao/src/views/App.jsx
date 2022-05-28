@@ -8,10 +8,10 @@ import Content from '../components/layout/Content'
  
 const App = props => (
     <div className="App">
-        <BrowserRouter> // Usamos a importação acima bem aqui
+        <BrowserRouter> 
             <Menu />
             <Content />
-        </BrowserRouter> // Aqui também
+        </BrowserRouter> 
     </div>
 )
  
